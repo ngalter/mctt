@@ -16,10 +16,9 @@ function HomePage() {
     <Drawer />  
     <Banner />
     <Intro />
+    <Divider />
     <RaceInformation />
-    <Divider />
     <Sponsors />
-    <Divider />
     <Charities />
     <Footer /> 
     </div>

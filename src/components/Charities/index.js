@@ -23,7 +23,7 @@ function Charities(props) {
   
   return (<div  className='c-wrapper' id={'charityinformation'}>
       <Typography variant="h5" className={classes.header}>CHARITIES</Typography>
-      <div className='s-grid'>
+      <div className='c-grid'>
         {
                     data.charity.map((charity, id) => ( 
                         <VendorCard
