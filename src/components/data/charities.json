@@ -1,0 +1,41 @@
+{
+    "charity": 
+[
+    {
+        "name": "JFCS",
+        "img": "../img/jfcs.png",
+        "url": "https://www.jfcsonline.org/",
+        "icon": "fas fa-heart",
+        "order": 1
+    },
+    {
+      "name": "RISE",
+      "img": "../img/rise.png",
+      "url": "https://www.njrise.org/",
+      "icon": "fas fa-heart",
+      "order": 2
+    },
+    {
+      "name": "TASK",
+      "img": "../img/task.png",
+      "url": "http://www.trentonsoupkitchen.org/",
+      "icon": "fas fa-heart",
+      "order": 3
+    },
+    {
+      "name": "Catholic Charities",
+      "img": "../img/cc.png",
+      "url": "https://www.catholiccharitiestrenton.org/",
+      "icon": "fas fa-heart",
+      "order": 4
+    },
+    {
+      "name": "Mercer Street Friends",
+      "img": "../img/msf.png",
+      "url": "https://mercerstreetfriends.org/food-bank/",
+      "icon": "fas fa-heart",
+      "order": 5
+    }
+  ]
+  }
+

@@ -1,0 +1,22 @@
+.c-wrapper {
+  display: block;
+  width: 100%;
+  background-color: whitesmoke;
+  padding-top: 30px;
+  padding-bottom: 200px;
+}
+
+.c-grid {
+  display: grid;
+  grid-gap: 20px;
+  margin-top: 0px;
+  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.header {
+  color: #ff6633;
+  padding-top: 70px;
+}

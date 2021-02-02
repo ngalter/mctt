@@ -1,0 +1,48 @@
+.img-size {
+    width: 20%;
+    padding-top: 10px!important;
+    height: auto;
+    margin: auto;
+}
+.banner-box {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    width: 40%;
+    margin: auto;
+    z-index: 1;
+  }
+  .banner-wrap {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    z-index: 2;
+  }
+  .bg-bkd {
+    padding-top: 20px;
+    background: linear-gradient(11deg, #cc6600 53%, white 53%);
+    background: -webkit-linear-gradient(11deg, #cc6600 53%,white 53%);
+    background: -o-linear-gradient(11deg, #cc6600 53%, white 53%);
+    background: -moz-linear-gradient(11deg, #cc6600 53%, white 53%);
+  }
+  .banner-wrap > div {
+    width: 100%;
+    height: auto;
+    z-index: 3;
+  }
+ 
+  .banner-container {
+       display: grid;
+       grid-template-columns: 100%;
+       padding-top: 10px;
+       padding-bottom: 40px;
+       text-align: center;
+     }
+     .banner-container > div {
+       color: white;
+       padding: 2px;
+     }
+@media screen and (max-width: 760px) {
+  .img-size {
+    width: 50%;
+}
+}

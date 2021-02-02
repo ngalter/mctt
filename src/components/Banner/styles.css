@@ -1,0 +1,47 @@
+ .banner-box {
+  padding-top: 30px;
+  padding-bottom: 0px;
+   width: 50%;
+   margin: auto;
+   z-index: 1;
+ }
+ .banner-wrap {
+   display: grid;
+   grid-template-columns: 100%;
+   width: 100%;
+   z-index: 2;
+
+ }
+ .banner-wrap > div {
+   width: 100%;
+   height: auto;
+   /* background-image: url('../img/trot.jpg'); */
+   background-position: center center;
+   background-repeat: no-repeat; 
+   margin: auto;
+   z-index: 3;
+ }
+
+ .img-pct {
+   width: 70%;
+ }
+ .banner-container {
+      display: grid;
+      grid-template-columns: 100%;
+      padding-top: 10px;
+      padding-bottom: 40px;
+      text-align: center;
+    }
+    .banner-container > div {
+      color: white;
+      padding: 2px;
+    }
+
+  @media screen and (max-width: 760px) {
+    .banner-box {
+      padding-top: 40px;
+      width: 70%;
+      margin: auto;
+    }
+    }
+    
