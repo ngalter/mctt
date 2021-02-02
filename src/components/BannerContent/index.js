@@ -9,10 +9,10 @@ const useStyles = makeStyles((theme) => ({
         flexGrow: 1,
         fontFamily:  'Paytone One, sans-serif;',
         color: '#993300',
-        marginTop: '20px',
-        marginBottom: '0px',
         paddingRight: '30px',
         paddingLeft: '30px',
+        marginTop: '5px',
+        lineHeight: '1em',
     },
     header2: {
         flexGrow: 1,
