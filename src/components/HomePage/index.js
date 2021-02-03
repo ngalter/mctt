@@ -1,7 +1,6 @@
 import React from 'react';
 import AppBar from '../AppBar'
 import Drawer from '../Drawer';
-import Footer from '../Footer';
 import Banner from '../Banner';
 import Intro from '../Intro';
 import Divider from '@material-ui/core/Divider';
