@@ -14,6 +14,8 @@ import MailIcon from '@material-ui/icons/Mail';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
 import InfoIcon from '@material-ui/icons/Info';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
 import TimerIcon from '@material-ui/icons/Timer';
 import MenuIcon from '@material-ui/icons/Menu';
 import './styles.css';
@@ -147,7 +149,31 @@ export default function TemporaryDrawer() {
             <ListItemText primary={'Upload Photos'}  className='drawer-label' />
           </ListItem>
         </Link>
-          <Divider />
+        <Divider />
+        <Link
+            href="https://www.instagram.com/mercercountyturkeytrot/"
+            target="_blank"
+            rel="noopener noreferrer">
+            <ListItem  button >
+            <ListItemIcon>
+            <InstagramIcon
+                className='drawer-icon' />
+            </ListItemIcon>
+            <ListItemText primary={'Instagram'} className='drawer-label' />
+          </ListItem>
+        </Link>
+        <Link
+            href="https://www.facebook.com/MercerCountyTurkeyTrot"
+            target="_blank"
+            rel="noopener noreferrer">
+            <ListItem  button >
+            <ListItemIcon>
+            <FacebookIcon
+                className='drawer-icon' />
+            </ListItemIcon>
+            <ListItemText primary={'Facebook'} className='drawer-label' />
+          </ListItem>
+          </Link>
         <Link href="mailto:mercerturkeytrot@gmail.com"
         target="_blank"
         rel="noopener noreferrer">

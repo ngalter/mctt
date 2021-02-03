@@ -20,7 +20,6 @@ function HomePage() {
     <RaceInformation />
     <Sponsors />
     <Charities />
-    <Footer /> 
     </div>
     );
 }
