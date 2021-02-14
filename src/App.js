@@ -1,5 +1,6 @@
 import React from 'react';
 import Amplify from 'aws-amplify';
+import { withAuthenticator } from '@aws-amplify/ui-react';
 import awsconfig from './aws-exports';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
@@ -14,7 +15,7 @@ function App() {
     );
 }
 
-export default App;
+export default withAuthenticator(App);
 
 
 
